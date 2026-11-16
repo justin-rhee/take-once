@@ -1,6 +1,6 @@
 # take-once
 
-[![tests](https://github.com/justin-rhee/take-once/actions/workflows/test.yml/badge.svg)](https://github.com/justin-rhee/take-once/actions/workflows/test.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![node >= 22](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg) ![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
+[![tests](https://github.com/justin-rhee/take-once/actions/workflows/test.yml/badge.svg)](https://github.com/justin-rhee/take-once/actions/workflows/test.yml) [![npm](https://img.shields.io/npm/v/take-once.svg)](https://www.npmjs.com/package/take-once) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![node >= 22](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg) ![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 
 Lets several AI coding agents share one to-do list in git, without two of them ever grabbing the same task. It doesn't care which agent does the work: Claude Code, Codex, or anything you can start from a shell.
 
