@@ -1,0 +1,38 @@
+{
+  "name": "take-once",
+  "version": "1.0.0",
+  "description": "Lets several AI coding agents share one to-do list in git, without two of them ever grabbing the same task.",
+  "type": "module",
+  "bin": {
+    "take-once": "src/take-once.mjs"
+  },
+  "files": [
+    "src/take-once.mjs",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node tests/take-once.test.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "coding-agents",
+    "agent-harness",
+    "git",
+    "queue",
+    "task-queue",
+    "claude-code"
+  ],
+  "author": "Justin Rhee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-rhee/take-once.git"
+  },
+  "homepage": "https://github.com/justin-rhee/take-once#readme",
+  "bugs": "https://github.com/justin-rhee/take-once/issues"
+}
