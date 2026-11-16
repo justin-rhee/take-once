@@ -32,8 +32,8 @@ I had two machines running coding agents off one shared task list, and it broke 
 Node 22 and git, nothing else. Inside a clone of your repo:
 
 ```sh
-npx github:justin-rhee/take-once#v1.0.0 init    # creates a queue branch with one example task
-npx github:justin-rhee/take-once#v1.0.0 pick
+npx take-once init    # creates a queue branch with one example task
+npx take-once pick
 ```
 
 `init` never replaces an existing queue and doesn't touch your working tree. Prefer a single file? `curl -O https://raw.githubusercontent.com/justin-rhee/take-once/main/src/take-once.mjs` works the same. A [full example task](examples/042-add-retry.md) shows the format.
